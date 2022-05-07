@@ -3,4 +3,9 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="13" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Модель_OSI.main" options="--add-exports java.base/jdk.internal.util.xml.impl=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>
